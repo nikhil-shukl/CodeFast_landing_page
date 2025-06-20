@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team - CodeFast</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+    }
+
+    header .logo img {
+      height: 50px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffd700;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      color: #1e1e2f;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+      color: #555;
+    }
+
+    .team-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 40px 20px;
+    }
+
+    .team-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .team-card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .team-card h3 {
+      margin: 10px 0 5px;
+      font-size: 20px;
+      color: #1e1e2f;
+    }
+
+    .team-card p {
+      font-size: 14px;
+      color: #777;
+    }
+
+    footer {
+      background-color: #1e1e2f;
+      color: white;
+      padding: 30px 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    footer .footer-box {
+      width: 200px;
+      margin: 10px;
+    }
+
+    footer .footer-box h3 {
+      margin-bottom: 10px;
+    }
+
+    footer .footer-box ul,
+    footer .footer-box address {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    footer .footer-box ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer .footer-box ul li a {
+      text-decoration: none;
+      color: #bbb;
+    }
+
+    footer .footer-box ul li a:hover {
+      color: #ffd700;
+    }
+
+    .social-icons span {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="./img/logo.png" alt="CodeFast Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Meet the CodeFast Team</h1>
+    <p>Our passionate team of educators and developers is committed to delivering the best tech education through structured courses, real-world projects, and personalized mentorship.</p>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section">
+    <div class="team-card">
+      <img src="./img/pic2.png" alt="Nikki Shukla">
+      <h3>Nikki Shukla</h3>
+      <p>Founder & CEO<br>Developer | Mentor | Tech Visionary</p>
+    </div>
+    <div class="team-card">
+      <img src="./img/pic3.png" alt="Mentor 1">
+      <h3>Shreya Mehta</h3>
+      <p>Software Mentor<br>Frontend & UI Expert</p>
+    </div>
+    <div class="team-card">
+      <img src="./img/pic4.png" alt="Mentor 2">
+      <h3>Aditya Rao</h3>
+      <p>DSA Instructor<br>Competitive Programmer</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-box">
+      <img src="./img/logo.png" alt="Logo" style="width: 100px;" />
+      <p>© CodeFast 2025<br>All rights reserved.</p>
+    </div>
+    <div class="footer-box">
+      <h3>Menu</h3>
+      <ul>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <address>
+        Email: support@codefast.com<br>
+        Address: Delhi, India
+      </address>
+    </div>
+    <div class="footer-box social-icons">
+      <h3>Follow Us</h3>
+      <span><i class="fab fa-facebook"></i></span>
+      <span><i class="fab fa-twitter"></i></span>
+      <span><i class="fab fa-instagram"></i></span>
+    </div>
+  </footer>
+
+</body>
+</html>
